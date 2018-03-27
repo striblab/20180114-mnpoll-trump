@@ -39,7 +39,8 @@ body {
 .legendary {
     padding:4px;
     color: #fff;
-    font-weight:normal;
+    font-weight:normal !important;
+    display:inline-block;
     border-radius: 5px;
     padding: 0 7px;
     margin-bottom: 3px;
@@ -257,6 +258,7 @@ table {
 
 td, th {
     font-family: "Benton Sans", Helvetica, Arial, sans-serif !important;
+    line-height: 160%;
 }
 
 @media (max-width:800px) {
